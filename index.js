@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var app = {
     server: function(conf){
         return require('./server.js')(conf);
@@ -17,7 +18,7 @@ if(require.main === module){
     }
     
     // Start server
-    module.exports.server(config).listen();
+    app.server(config).listen();
     
 }else{
     module.exports = app;
