@@ -7,7 +7,7 @@ npm install pmb
 pmb
 ```
 
-## Usage as a required server
+## Usage as a Required Server
 ```
 var pmb = require('pmb').server({ // Optional config object
 	ip: '0.0.0.0',
@@ -19,7 +19,7 @@ pmb.server		// Server object
 pmb.patterns	// Topics and their pattern matchers
 ```
 
-## Usage as client
+## Usage as Client
 ```
 var pmb = require('pattern-message-broker').client({ // Optional config object
 	ip: '0.0.0.0',
