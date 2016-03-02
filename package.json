@@ -1,10 +1,10 @@
 {
   "name": "pmb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An object pattern based message broker.",
   "main": "index.js",
   "bin": {
-    "pmb-server" : "./index.js"
+    "pmb-server": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
