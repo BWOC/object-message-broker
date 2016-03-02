@@ -1,0 +1,44 @@
+{
+  "name": "pmb",
+  "version": "0.0.1",
+  "description": "An object pattern based message broker.",
+  "main": "index.js",
+  "bin": {
+    "pmb-server" : "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BWOC/pmb.git"
+  },
+  "keywords": [
+    "message",
+    "queue",
+    "message",
+    "broker",
+    "messaging",
+    "message",
+    "queue",
+    "broker",
+    "object",
+    "pattern",
+    "pattern",
+    "patrun",
+    "beanstalk",
+    "ampq",
+    "rabbitmq",
+    "celery",
+    "zmq",
+    "0mq",
+    "zeromq",
+    "axon"
+  ],
+  "author": "Sean Goheen for Believers World Outreach Church",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BWOC/pmb/issues"
+  },
+  "homepage": "https://github.com/BWOC/pmb#readme"
+}
