@@ -1,6 +1,6 @@
 {
   "name": "pmb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An object pattern based message broker.",
   "main": "index.js",
   "bin": {
